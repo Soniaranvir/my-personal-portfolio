@@ -639,25 +639,25 @@ header .navbar ul li a:hover {
 /* education media queries ends*/
 /* education section ends */
 
-/* Projects section starts */
-.Projects {
+/* work section starts */
+.work {
   /* background: #010124; */
   background: linear-gradient(to bottom, #000031, #00002c);
 }
-.Projects h2 {
+.work h2 {
   color: #fff;
   padding: 1rem;
 }
-.Projects .heading span {
+.work .heading span {
   color: rgb(255, 230, 0);
 }
-.Projects .box-container {
+.work .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem;
 }
-.Projects .box-container .box {
+.work .box-container .box {
   flex: 1 1 30rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -665,12 +665,12 @@ header .navbar ul li a:hover {
   overflow: auto;
   height: 30rem;
 }
-.Projects .box-container .box img {
+.work .box-container .box img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.Projects .box-container .box .content {
+.work .box-container .box .content {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -680,7 +680,7 @@ header .navbar ul li a:hover {
   display: flex;
   flex-direction: column;
 }
-.Projects .box-container .box .content .tag {
+.work .box-container .box .content .tag {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -690,29 +690,29 @@ header .navbar ul li a:hover {
   padding-left: 1rem;
   background: #ffd900;
 }
-.Projects .box-container .box .content .tag h3 {
+.work .box-container .box .content .tag h3 {
   font-size: 2rem;
 }
-.Projects .box-container .box:hover .content {
+.work .box-container .box:hover .content {
   top: 25%;
 }
-.Projects .desc {
+.work .desc {
   margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.Projects .desc p {
+.work .desc p {
   font-size: 1.5rem;
 
 }
-.Projects .desc .btns {
+.work .desc .btns {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 2rem;
 }
-.Projects .desc .btns .btn {
+.work .desc .btns .btn {
   line-height: 0;
   display: inline;
   padding: 1.5rem 2.5rem;
@@ -722,14 +722,14 @@ header .navbar ul li a:hover {
   background: rgb(12, 12, 12);
   margin-right: 2rem;
 }
-.Projects .desc .btns .btn:hover {
+.work .desc .btns .btn:hover {
   background: #310ae0f5;
 }
-.Projects .viewall {
+.work .viewall {
   display: flex;
   justify-content: center;
 }
-.Projects .viewall .btn {
+.work .viewall .btn {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
@@ -741,24 +741,24 @@ header .navbar ul li a:hover {
   box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
   text-align: center;
 }
-.Projects .viewall .btn span {
+.work .viewall .btn span {
   font-weight: 600;
   font-size: 1.7rem;
   font-family: "Nunito", sans-serif;
 }
-.Projects .viewall .btn i {
+.work .viewall .btn i {
   margin-left: 0.3rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.Projects .viewall .btn:hover {
+.work .viewall .btn:hover {
   background: #fff;
   color: #000;
 }
-.Projects .viewall .btn:hover i {
+.work .viewall .btn:hover i {
   transform: translateX(5px);
 }
-/* Projects section ends */
+/* work section ends */
 
 /* experience section starts */
 .experience .timeline {
