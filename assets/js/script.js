@@ -59,8 +59,8 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Sushith";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            document.title = "Portfolio | Sreedev";
+            $("#favicon").attr("href", "assets/images/sreedev.png");
         }
         else {
 //            document.title = "Come Back To Portfolio";
