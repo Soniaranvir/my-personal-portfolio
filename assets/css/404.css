@@ -347,4 +347,64 @@ header .navbar ul li a:hover{
 #scroll-top.active{
   top: calc(100% - 12rem);
 }
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100px; /* Adjust as needed */
+}
+
+.skill img {
+  width: 60px; /* Ensures consistent size */
+  height: 60px;
+  border-radius: 50%; /* Circular shape */
+  object-fit: cover; /* Maintains proportions */
+  margin-bottom: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100px; /* Adjust as needed */
+}
+
+.skill img {
+  width: 60px; /* Ensures consistent size */
+  height: 60px;
+  border-radius: 50%; /* Circular shape */
+  object-fit: cover; /* Maintains proportions */
+  margin-bottom: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
 /* scroll top ends */
